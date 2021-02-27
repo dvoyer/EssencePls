@@ -1,5 +1,5 @@
 # EssencePls
-A Hollow Knight mod that modifies the dream nail to collect 1 essence on each hit. Intended to be used for modded Low% TE runs.
+A Hollow Knight mod that modifies the dream nail to collect 1 essence on each kill. Intended to be used for modded Low% TE runs.
 
 ## Installation
 Requires the modding api.
