@@ -20,7 +20,7 @@ namespace EssencePls
 
     public class EssencePls : Mod
     {
-        public override string GetVersion() => "0.999";
+        public override string GetVersion() => "1.0";
         public override void Initialize()
         {
             Log("EssencePls v." + GetVersion());
