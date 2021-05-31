@@ -6,4 +6,5 @@ Requires the modding api.
 Either compile the source or use the precompiled .dll and place it in [hollow knight install]\hollow_knight_Data\Managed\Mods.
 
 ## Version History
-- v 1.0 - Functions, but does not play the fun sound and do the cool particle effects.
+- v 1.0.0 - initial release
+- v 1.0.1 - corrected bug that caused every enemy to drop essence unconditionally instead of after acquiring 906 essence.
