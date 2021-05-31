@@ -13,7 +13,7 @@ namespace EssencePls
     {
  		public GameObject _essencePrefab;
         public deathEffects deathEffects;
-        public override string GetVersion() => "1.0.0";
+        public override string GetVersion() => "1.0.1";
         public override void Initialize()
         {
             Log("EssencePls v." + GetVersion());
@@ -43,7 +43,7 @@ namespace EssencePls
 			{
 				return;
 			}
-			if (playerData.dreamOrbs < 907 && playerData.dreamOrbs > 1800)
+			if (playerData.dreamOrbs < 907 || playerData.dreamOrbs > 1800)
             {
 				orig(self);
             }
